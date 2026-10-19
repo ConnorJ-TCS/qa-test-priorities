@@ -3,7 +3,11 @@
   "groups": [
     {
       "id": "G1",
-      "cases": []
+      "cases": [
+        "TWHD-3922",
+        "TWHD-3428",
+        "TWHD-5024"
+      ]
     },
     {
       "id": "G2",
