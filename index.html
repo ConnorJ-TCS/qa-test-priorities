@@ -32,6 +32,9 @@
   .empty{padding:12px 14px;color:var(--ink2);font-style:italic}
   .g1 .id{color:var(--g1)}.g2 .id{color:var(--g2)}.g3 .id{color:var(--g3)}.g4 .id{color:var(--g4)}
   .hide{display:none}
+  li.nr{opacity:.55;background:repeating-linear-gradient(135deg,transparent 0 8px,rgba(192,57,43,.07) 8px 16px)}
+  li.nr a{text-decoration:line-through}
+  .nrtag{margin-left:auto;align-self:center;font-size:11.5px;font-weight:700;color:var(--g1);border:1px solid var(--g1);border-radius:6px;padding:1px 7px;white-space:nowrap}
   .btn{padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);text-decoration:none}
   .jl{display:inline-block;margin-left:8px;color:var(--accent);font-weight:600;text-decoration:none}
   #status{font-size:12.5px;color:var(--ink2)}
@@ -46,6 +49,7 @@
   <div class="bar">
     <input type="search" id="q" placeholder="Filter by case number or words in the title">
     <button id="reload">Reload list</button>
+    <label style="display:flex;align-items:center;gap:6px;color:var(--ink2)"><input type="checkbox" id="hideNR"> Hide not-ready cases</label>
     <button id="toggle">Collapse all</button>
     <a id="alljira" class="btn" href="#" target="_blank" rel="noopener">All cases in Jira</a>
   </div>
@@ -57,7 +61,7 @@
    saved into this file when it was built, and says so at the top. */
 const DATA_URL = "https://connorj-tcs.github.io/qa-test-priorities/cases.json";
 const JIRA = "https://arinet.atlassian.net/browse/";
-const SNAPSHOT = {"updated": "2026-10-19", "groups": [{"id": "G1", "cases": ["TWHD-3922", "TWHD-3428", "TWHD-5024"]}, {"id": "G2", "cases": ["TWHD-4734", "TWHD-4736", "TWHD-4262", "TWHD-4405", "TWHD-4794", "TWHD-4865", "TWHD-4914"]}, {"id": "G3", "cases": ["TWHD-1717", "TWHD-1718", "TWHD-5030", "TWHD-4019", "TWHD-4020", "TWHD-4021", "TWHD-4022", "TWHD-4023", "TWHD-4024", "TWHD-4025", "TWHD-4026", "TWHD-4027", "TWHD-4028", "TWHD-4029", "TWHD-4030", "TWHD-4031", "TWHD-4032", "TWHD-4033", "TWHD-4034", "TWHD-4035", "TWHD-4036", "TWHD-4037", "TWHD-4039", "TWHD-4040", "TWHD-4041", "TWHD-4042", "TWHD-4043", "TWHD-4044", "TWHD-4045", "TWHD-4062", "TWHD-4160", "TWHD-4176", "TWHD-4192", "TWHD-4600", "TWHD-4601", "TWHD-4602", "TWHD-4603", "TWHD-4604", "TWHD-4605", "TWHD-4606", "TWHD-4607", "TWHD-4610", "TWHD-4611", "TWHD-4612", "TWHD-4613", "TWHD-4614", "TWHD-4615", "TWHD-4616", "TWHD-4617", "TWHD-4618", "TWHD-4620", "TWHD-4621", "TWHD-4622", "TWHD-4623", "TWHD-4624", "TWHD-4704", "TWHD-4705", "TWHD-4706", "TWHD-4707", "TWHD-4708", "TWHD-4709", "TWHD-4710", "TWHD-4711", "TWHD-4712", "TWHD-4713", "TWHD-4714", "TWHD-4715", "TWHD-4716", "TWHD-4717", "TWHD-429", "TWHD-1573", "TWHD-1574", "TWHD-1575", "TWHD-1576", "TWHD-4627", "TWHD-4628", "TWHD-4656", "TWHD-4657", "TWHD-4658", "TWHD-4659", "TWHD-4661", "TWHD-4662", "TWHD-4663", "TWHD-4664", "TWHD-4665", "TWHD-4666"]}, {"id": "G4", "cases": []}]};
+const SNAPSHOT = {"updated": "2026-10-19", "groups": [{"id": "G1", "cases": [{"key": "TWHD-3922", "ready": true}, {"key": "TWHD-3428", "ready": true}, {"key": "TWHD-5024", "ready": true}]}, {"id": "G2", "cases": [{"key": "TWHD-4734", "ready": true}, {"key": "TWHD-4736", "ready": true}, {"key": "TWHD-4262", "ready": false}, {"key": "TWHD-4405", "ready": true}, {"key": "TWHD-4794", "ready": true}, {"key": "TWHD-4865", "ready": true}, {"key": "TWHD-4914", "ready": false}]}, {"id": "G3", "cases": [{"key": "TWHD-1717", "ready": false}, {"key": "TWHD-1718", "ready": false}, {"key": "TWHD-5030", "ready": false}, {"key": "TWHD-4019", "ready": true}, {"key": "TWHD-4020", "ready": true}, {"key": "TWHD-4021", "ready": false}, {"key": "TWHD-4022", "ready": true}, {"key": "TWHD-4023", "ready": true}, {"key": "TWHD-4024", "ready": true}, {"key": "TWHD-4025", "ready": true}, {"key": "TWHD-4026", "ready": true}, {"key": "TWHD-4027", "ready": true}, {"key": "TWHD-4028", "ready": true}, {"key": "TWHD-4029", "ready": true}, {"key": "TWHD-4030", "ready": true}, {"key": "TWHD-4031", "ready": true}, {"key": "TWHD-4032", "ready": true}, {"key": "TWHD-4033", "ready": false}, {"key": "TWHD-4034", "ready": true}, {"key": "TWHD-4035", "ready": false}, {"key": "TWHD-4036", "ready": false}, {"key": "TWHD-4037", "ready": false}, {"key": "TWHD-4039", "ready": true}, {"key": "TWHD-4040", "ready": false}, {"key": "TWHD-4041", "ready": false}, {"key": "TWHD-4042", "ready": false}, {"key": "TWHD-4043", "ready": true}, {"key": "TWHD-4044", "ready": true}, {"key": "TWHD-4045", "ready": false}, {"key": "TWHD-4062", "ready": false}, {"key": "TWHD-4160", "ready": false}, {"key": "TWHD-4176", "ready": true}, {"key": "TWHD-4192", "ready": false}, {"key": "TWHD-4600", "ready": true}, {"key": "TWHD-4601", "ready": true}, {"key": "TWHD-4602", "ready": true}, {"key": "TWHD-4603", "ready": true}, {"key": "TWHD-4604", "ready": true}, {"key": "TWHD-4605", "ready": true}, {"key": "TWHD-4606", "ready": true}, {"key": "TWHD-4607", "ready": true}, {"key": "TWHD-4610", "ready": true}, {"key": "TWHD-4611", "ready": true}, {"key": "TWHD-4612", "ready": true}, {"key": "TWHD-4613", "ready": true}, {"key": "TWHD-4614", "ready": true}, {"key": "TWHD-4615", "ready": true}, {"key": "TWHD-4616", "ready": true}, {"key": "TWHD-4617", "ready": true}, {"key": "TWHD-4618", "ready": true}, {"key": "TWHD-4620", "ready": true}, {"key": "TWHD-4621", "ready": true}, {"key": "TWHD-4622", "ready": true}, {"key": "TWHD-4623", "ready": true}, {"key": "TWHD-4624", "ready": true}, {"key": "TWHD-4704", "ready": false}, {"key": "TWHD-4705", "ready": false}, {"key": "TWHD-4706", "ready": false}, {"key": "TWHD-4707", "ready": false}, {"key": "TWHD-4708", "ready": false}, {"key": "TWHD-4709", "ready": false}, {"key": "TWHD-4710", "ready": false}, {"key": "TWHD-4711", "ready": false}, {"key": "TWHD-4712", "ready": false}, {"key": "TWHD-4713", "ready": false}, {"key": "TWHD-4714", "ready": false}, {"key": "TWHD-4715", "ready": false}, {"key": "TWHD-4716", "ready": false}, {"key": "TWHD-4717", "ready": false}, {"key": "TWHD-429", "ready": true}, {"key": "TWHD-1573", "ready": true}, {"key": "TWHD-1574", "ready": true}, {"key": "TWHD-1575", "ready": true}, {"key": "TWHD-1576", "ready": true}, {"key": "TWHD-4627", "ready": false}, {"key": "TWHD-4628", "ready": false}, {"key": "TWHD-4656", "ready": false}, {"key": "TWHD-4657", "ready": false}, {"key": "TWHD-4658", "ready": false}, {"key": "TWHD-4659", "ready": false}, {"key": "TWHD-4661", "ready": false}, {"key": "TWHD-4662", "ready": false}, {"key": "TWHD-4663", "ready": false}, {"key": "TWHD-4664", "ready": false}, {"key": "TWHD-4665", "ready": false}, {"key": "TWHD-4666", "ready": false}]}, {"id": "G4", "cases": []}]};
 const META = {"title": "QA Test-Ahead Priorities", "rule": "The current sprint always comes first. Use these groups only when nothing in the current sprint is ready to test and you have capacity to test ahead.", "groups": [{"id": "G1", "name": "Priority Bugs/Bugs in the next sprint", "desc": "Bugs in the very next sprint only (not later sprints), especially ones that are ready to test."}, {"id": "G2", "name": "Last quarter's epics", "desc": "Any case that is ready for build or ready for QA in TWHD-3290, TWHD-4255 or TWHD-4377. Test and put these to bed as soon as possible."}, {"id": "G3", "name": "The current PI plan, in order", "desc": "Cases from the PI plan, in the order the PI plan lists them."}, {"id": "G4", "name": "Everything else on your list", "desc": "Anything not in G1 to G3 that is already on your list, including released cases not yet tested."}]};
 const $ = s => document.querySelector(s);
 const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -72,14 +76,16 @@ function render(){
   $("#rule").textContent = META.rule;
   const all = [];
   $("#groups").innerHTML = META.groups.map(m => {
-    const g = (data.groups.find(x => x.id === m.id) || {cases: []}), keys = g.cases || [];
+    const g = (data.groups.find(x => x.id === m.id) || {cases: []});
+    const cs = (g.cases || []).map(c => typeof c === "string" ? {key: c, ready: true} : c), keys = cs.map(c => c.key);
     all.push(...keys);
-    const shown = keys.map((k, i) => [k, i]).filter(([k]) => !q || k.toLowerCase().includes(q));
+    const hideNR = $("#hideNR").checked, nReady = cs.filter(c => c.ready).length;
+    const shown = cs.map((c, i) => [c, i]).filter(([c]) => (!q || c.key.toLowerCase().includes(q)) && (!hideNR || c.ready));
     const body = shown.length
-      ? "<ol>" + shown.map(([k, i]) => `<li value="${i + 1}"><a href="${JIRA}${esc(k)}" target="_blank" rel="noopener">${esc(k)}</a></li>`).join("") + "</ol>"
+      ? "<ol>" + shown.map(([c, i]) => `<li value="${i + 1}" class="${c.ready ? "" : "nr"}"><a href="${JIRA}${esc(c.key)}" target="_blank" rel="noopener">${esc(c.key)}</a>${c.ready ? "" : '<span class="nrtag">NOT READY, skip for now</span>'}</li>`).join("") + "</ol>"
       : `<div class="empty">${keys.length ? "No case matches the filter." : "Nothing in this group right now."}</div>`;
     const more = keys.length ? ` <a class="jl" href="${jql(keys)}" target="_blank" rel="noopener">See titles and status in Jira</a>` : "";
-    return `<section class="grp ${esc(m.id.toLowerCase())}"><header data-g="${esc(m.id)}"><span class="id">${esc(m.id)}</span><strong>${esc(m.name)}</strong><span class="count">${keys.length} case${keys.length === 1 ? "" : "s"}</span></header>
+    return `<section class="grp ${esc(m.id.toLowerCase())}"><header data-g="${esc(m.id)}"><span class="id">${esc(m.id)}</span><strong>${esc(m.name)}</strong><span class="count">${keys.length ? nReady + " ready of " + keys.length : "0 cases"}</span></header>
       <div class="body ${collapsed ? "hide" : ""}"><div class="desc">${esc(m.desc)}${more}</div>${body}</div></section>`;
   }).join("");
   $("#alljira").href = all.length ? jql(all) : "#";
@@ -101,6 +107,7 @@ async function load(){
   render();
 }
 $("#q").oninput = render;
+$("#hideNR").onchange = render;
 $("#reload").onclick = load;
 $("#toggle").onclick = () => { collapsed = !collapsed; $("#toggle").textContent = collapsed ? "Expand all" : "Collapse all"; render(); };
 load();

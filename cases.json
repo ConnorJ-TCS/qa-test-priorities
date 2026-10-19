@@ -4,112 +4,400 @@
     {
       "id": "G1",
       "cases": [
-        "TWHD-3922",
-        "TWHD-3428",
-        "TWHD-5024"
+        {
+          "key": "TWHD-3922",
+          "ready": true
+        },
+        {
+          "key": "TWHD-3428",
+          "ready": true
+        },
+        {
+          "key": "TWHD-5024",
+          "ready": true
+        }
       ]
     },
     {
       "id": "G2",
       "cases": [
-        "TWHD-4734",
-        "TWHD-4736",
-        "TWHD-4262",
-        "TWHD-4405",
-        "TWHD-4794",
-        "TWHD-4865",
-        "TWHD-4914"
+        {
+          "key": "TWHD-4734",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4736",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4262",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4405",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4794",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4865",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4914",
+          "ready": false
+        }
       ]
     },
     {
       "id": "G3",
       "cases": [
-        "TWHD-1717",
-        "TWHD-1718",
-        "TWHD-5030",
-        "TWHD-4019",
-        "TWHD-4020",
-        "TWHD-4021",
-        "TWHD-4022",
-        "TWHD-4023",
-        "TWHD-4024",
-        "TWHD-4025",
-        "TWHD-4026",
-        "TWHD-4027",
-        "TWHD-4028",
-        "TWHD-4029",
-        "TWHD-4030",
-        "TWHD-4031",
-        "TWHD-4032",
-        "TWHD-4033",
-        "TWHD-4034",
-        "TWHD-4035",
-        "TWHD-4036",
-        "TWHD-4037",
-        "TWHD-4039",
-        "TWHD-4040",
-        "TWHD-4041",
-        "TWHD-4042",
-        "TWHD-4043",
-        "TWHD-4044",
-        "TWHD-4045",
-        "TWHD-4062",
-        "TWHD-4160",
-        "TWHD-4176",
-        "TWHD-4192",
-        "TWHD-4600",
-        "TWHD-4601",
-        "TWHD-4602",
-        "TWHD-4603",
-        "TWHD-4604",
-        "TWHD-4605",
-        "TWHD-4606",
-        "TWHD-4607",
-        "TWHD-4610",
-        "TWHD-4611",
-        "TWHD-4612",
-        "TWHD-4613",
-        "TWHD-4614",
-        "TWHD-4615",
-        "TWHD-4616",
-        "TWHD-4617",
-        "TWHD-4618",
-        "TWHD-4620",
-        "TWHD-4621",
-        "TWHD-4622",
-        "TWHD-4623",
-        "TWHD-4624",
-        "TWHD-4704",
-        "TWHD-4705",
-        "TWHD-4706",
-        "TWHD-4707",
-        "TWHD-4708",
-        "TWHD-4709",
-        "TWHD-4710",
-        "TWHD-4711",
-        "TWHD-4712",
-        "TWHD-4713",
-        "TWHD-4714",
-        "TWHD-4715",
-        "TWHD-4716",
-        "TWHD-4717",
-        "TWHD-429",
-        "TWHD-1573",
-        "TWHD-1574",
-        "TWHD-1575",
-        "TWHD-1576",
-        "TWHD-4627",
-        "TWHD-4628",
-        "TWHD-4656",
-        "TWHD-4657",
-        "TWHD-4658",
-        "TWHD-4659",
-        "TWHD-4661",
-        "TWHD-4662",
-        "TWHD-4663",
-        "TWHD-4664",
-        "TWHD-4665",
-        "TWHD-4666"
+        {
+          "key": "TWHD-1717",
+          "ready": false
+        },
+        {
+          "key": "TWHD-1718",
+          "ready": false
+        },
+        {
+          "key": "TWHD-5030",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4019",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4020",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4021",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4022",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4023",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4024",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4025",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4026",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4027",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4028",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4029",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4030",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4031",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4032",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4033",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4034",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4035",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4036",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4037",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4039",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4040",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4041",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4042",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4043",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4044",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4045",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4062",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4160",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4176",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4192",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4600",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4601",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4602",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4603",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4604",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4605",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4606",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4607",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4610",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4611",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4612",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4613",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4614",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4615",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4616",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4617",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4618",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4620",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4621",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4622",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4623",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4624",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4704",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4705",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4706",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4707",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4708",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4709",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4710",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4711",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4712",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4713",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4714",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4715",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4716",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4717",
+          "ready": false
+        },
+        {
+          "key": "TWHD-429",
+          "ready": true
+        },
+        {
+          "key": "TWHD-1573",
+          "ready": true
+        },
+        {
+          "key": "TWHD-1574",
+          "ready": true
+        },
+        {
+          "key": "TWHD-1575",
+          "ready": true
+        },
+        {
+          "key": "TWHD-1576",
+          "ready": true
+        },
+        {
+          "key": "TWHD-4627",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4628",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4656",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4657",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4658",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4659",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4661",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4662",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4663",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4664",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4665",
+          "ready": false
+        },
+        {
+          "key": "TWHD-4666",
+          "ready": false
+        }
       ]
     },
     {
