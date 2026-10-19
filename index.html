@@ -57,7 +57,7 @@
    saved into this file when it was built, and says so at the top. */
 const DATA_URL = "https://connorj-tcs.github.io/qa-test-priorities/cases.json";
 const JIRA = "https://arinet.atlassian.net/browse/";
-const SNAPSHOT = {"updated": "2026-10-19", "groups": [{"id": "G1", "cases": []}, {"id": "G2", "cases": []}, {"id": "G3", "cases": ["TWHD-4734"]}, {"id": "G4", "cases": []}]};
+const SNAPSHOT = {"updated": "2026-10-19", "groups": [{"id": "G1", "cases": []}, {"id": "G2", "cases": ["TWHD-4734", "TWHD-4736"]}, {"id": "G3", "cases": []}, {"id": "G4", "cases": []}]};
 const META = {"title": "QA Test-Ahead Priorities", "rule": "The current sprint always comes first. Use these groups only when nothing in the current sprint is ready to test and you have capacity to test ahead.", "groups": [{"id": "G1", "name": "Bugs in the next sprint", "desc": "Bugs in the very next sprint only (not later sprints), especially ones that are ready to test."}, {"id": "G2", "name": "Last quarter's epics", "desc": "Any case that is ready for build or ready for QA in TWHD-3290, TWHD-4255 or TWHD-4377. Test and put these to bed as soon as possible."}, {"id": "G3", "name": "The current PI plan, in order", "desc": "Cases from the PI plan, in the order the PI plan lists them."}, {"id": "G4", "name": "Everything else on your list", "desc": "Anything not in G1 to G3 that is already on your list, including released cases not yet tested."}]};
 const $ = s => document.querySelector(s);
 const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
