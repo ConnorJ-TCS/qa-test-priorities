@@ -66,12 +66,12 @@
       "cases": [
         {
           "key": "TWHD-1717",
-          "ready": false,
+          "ready": true,
           "done": false
         },
         {
           "key": "TWHD-1718",
-          "ready": false,
+          "ready": true,
           "done": false
         },
         {
