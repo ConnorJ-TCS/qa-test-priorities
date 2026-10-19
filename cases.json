@@ -6,15 +6,18 @@
       "cases": [
         {
           "key": "TWHD-3922",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-3428",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-5024",
-          "ready": true
+          "ready": true,
+          "done": false
         }
       ]
     },
@@ -23,31 +26,38 @@
       "cases": [
         {
           "key": "TWHD-4734",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4736",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4262",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4405",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4794",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4865",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4914",
-          "ready": false
+          "ready": false,
+          "done": false
         }
       ]
     },
@@ -56,347 +66,433 @@
       "cases": [
         {
           "key": "TWHD-1717",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-1718",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-5030",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4019",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4020",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4021",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4022",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4023",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4024",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4025",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4026",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4027",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4028",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4029",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4030",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4031",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4032",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4033",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4034",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4035",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4036",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4037",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4039",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4040",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4041",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4042",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4043",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4044",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4045",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4062",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4160",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4176",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4192",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4600",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4601",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4602",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4603",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4604",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4605",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4606",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4607",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4610",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4611",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4612",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4613",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4614",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4615",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4616",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4617",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4618",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4620",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4621",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4622",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4623",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4624",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4704",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4705",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4706",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4707",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4708",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4709",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4710",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4711",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4712",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4713",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4714",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4715",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4716",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4717",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-429",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-1573",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-1574",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-1575",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-1576",
-          "ready": true
+          "ready": true,
+          "done": false
         },
         {
           "key": "TWHD-4627",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4628",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4656",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4657",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4658",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4659",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4661",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4662",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4663",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4664",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4665",
-          "ready": false
+          "ready": false,
+          "done": false
         },
         {
           "key": "TWHD-4666",
-          "ready": false
+          "ready": false,
+          "done": false
         }
       ]
     },
