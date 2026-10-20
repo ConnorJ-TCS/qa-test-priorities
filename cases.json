@@ -65,11 +65,6 @@
       "id": "G3",
       "cases": [
         {
-          "key": "TWHD-1717",
-          "ready": false,
-          "done": true
-        },
-        {
           "key": "TWHD-5030",
           "ready": false,
           "done": false
