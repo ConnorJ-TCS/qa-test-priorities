@@ -66,8 +66,8 @@
       "cases": [
         {
           "key": "TWHD-1717",
-          "ready": true,
-          "done": false
+          "ready": false,
+          "done": true
         },
         {
           "key": "TWHD-5030",
