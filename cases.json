@@ -11,13 +11,13 @@
         },
         {
           "key": "TWHD-3428",
-          "ready": true,
-          "done": false
+          "ready": false,
+          "done": true
         },
         {
           "key": "TWHD-5024",
-          "ready": true,
-          "done": false
+          "ready": false,
+          "done": true
         }
       ]
     },
@@ -31,8 +31,8 @@
         },
         {
           "key": "TWHD-4736",
-          "ready": true,
-          "done": false
+          "ready": false,
+          "done": true
         },
         {
           "key": "TWHD-4262",
@@ -41,22 +41,22 @@
         },
         {
           "key": "TWHD-4405",
-          "ready": true,
+          "ready": false,
           "done": false
         },
         {
           "key": "TWHD-4794",
-          "ready": true,
+          "ready": false,
           "done": false
         },
         {
           "key": "TWHD-4865",
           "ready": false,
-          "done": false
+          "done": true
         },
         {
           "key": "TWHD-4914",
-          "ready": true,
+          "ready": false,
           "done": false
         }
       ]
@@ -71,12 +71,12 @@
         },
         {
           "key": "TWHD-4019",
-          "ready": true,
+          "ready": false,
           "done": false
         },
         {
           "key": "TWHD-4020",
-          "ready": true,
+          "ready": false,
           "done": false
         },
         {
@@ -86,7 +86,7 @@
         },
         {
           "key": "TWHD-4022",
-          "ready": true,
+          "ready": false,
           "done": false
         },
         {
@@ -96,7 +96,7 @@
         },
         {
           "key": "TWHD-4024",
-          "ready": true,
+          "ready": false,
           "done": false
         },
         {
@@ -332,21 +332,21 @@
         {
           "key": "TWHD-4704",
           "ready": false,
-          "done": false
+          "done": true
         },
         {
           "key": "TWHD-4705",
           "ready": false,
-          "done": false
+          "done": true
         },
         {
           "key": "TWHD-4706",
-          "ready": false,
+          "ready": true,
           "done": false
         },
         {
           "key": "TWHD-4707",
-          "ready": false,
+          "ready": true,
           "done": false
         },
         {
