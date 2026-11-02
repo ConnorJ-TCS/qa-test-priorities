@@ -3,13 +3,7 @@
   "groups": [
     {
       "id": "G1",
-      "cases": [
-        {
-          "key": "TWHD-5024",
-          "ready": false,
-          "done": true
-        }
-      ]
+      "cases": []
     },
     {
       "id": "G2",
