@@ -3,7 +3,28 @@
   "groups": [
     {
       "id": "G1",
-      "cases": []
+      "cases": [
+        {
+          "key": "TWHD-5106",
+          "ready": false,
+          "done": false
+        },
+        {
+          "key": "TWHD-5084",
+          "ready": false,
+          "done": false
+        },
+        {
+          "key": "TWHD-4758",
+          "ready": false,
+          "done": false
+        },
+        {
+          "key": "TWHD-5029",
+          "ready": false,
+          "done": false
+        }
+      ]
     },
     {
       "id": "G2",
@@ -25,6 +46,11 @@
         },
         {
           "key": "TWHD-4914",
+          "ready": false,
+          "done": false
+        },
+        {
+          "key": "TWHD-4400",
           "ready": false,
           "done": false
         }
@@ -179,11 +205,6 @@
           "done": false
         },
         {
-          "key": "TWHD-4176",
-          "ready": false,
-          "done": true
-        },
-        {
           "key": "TWHD-4192",
           "ready": false,
           "done": false
@@ -297,16 +318,6 @@
           "key": "TWHD-4624",
           "ready": true,
           "done": false
-        },
-        {
-          "key": "TWHD-4704",
-          "ready": false,
-          "done": true
-        },
-        {
-          "key": "TWHD-4705",
-          "ready": false,
-          "done": true
         },
         {
           "key": "TWHD-4706",
@@ -457,7 +468,33 @@
     },
     {
       "id": "G4",
-      "cases": []
+      "cases": [
+        {
+          "key": "TWHD-5018",
+          "ready": true,
+          "done": false
+        },
+        {
+          "key": "TWHD-4759",
+          "ready": true,
+          "done": false
+        },
+        {
+          "key": "TWHD-4746",
+          "ready": true,
+          "done": false
+        },
+        {
+          "key": "TWHD-3848",
+          "ready": true,
+          "done": false
+        },
+        {
+          "key": "TWHD-3617",
+          "ready": true,
+          "done": false
+        }
+      ]
     }
   ]
 }
