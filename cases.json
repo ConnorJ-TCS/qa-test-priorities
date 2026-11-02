@@ -9,11 +9,6 @@
       "id": "G2",
       "cases": [
         {
-          "key": "TWHD-4736",
-          "ready": false,
-          "done": true
-        },
-        {
           "key": "TWHD-4262",
           "ready": false,
           "done": false
