@@ -1,14 +1,9 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-11-02",
   "groups": [
     {
       "id": "G1",
       "cases": [
-        {
-          "key": "TWHD-3922",
-          "ready": false,
-          "done": true
-        },
         {
           "key": "TWHD-3428",
           "ready": false,
