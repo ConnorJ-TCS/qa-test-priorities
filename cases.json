@@ -5,12 +5,17 @@
       "id": "G1",
       "cases": [
         {
-          "key": "TWHD-5106",
-          "ready": false,
+          "key": "TWHD-4759",
+          "ready": true,
           "done": false
         },
         {
           "key": "TWHD-5084",
+          "ready": false,
+          "done": false
+        },
+        {
+          "key": "TWHD-5106",
           "ready": false,
           "done": false
         },
@@ -471,11 +476,6 @@
       "cases": [
         {
           "key": "TWHD-5018",
-          "ready": true,
-          "done": false
-        },
-        {
-          "key": "TWHD-4759",
           "ready": true,
           "done": false
         },
