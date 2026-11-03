@@ -1,39 +1,39 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-10-20",
   "groups": [
     {
       "id": "G1",
       "cases": [
         {
-          "key": "TWHD-4759",
-          "ready": true,
-          "done": false
-        },
-        {
-          "key": "TWHD-5084",
-          "ready": true,
-          "done": false
-        },
-        {
-          "key": "TWHD-5106",
+          "key": "TWHD-3922",
           "ready": false,
-          "done": false
+          "done": true
         },
         {
-          "key": "TWHD-4758",
-          "ready": true,
-          "done": false
-        },
-        {
-          "key": "TWHD-5029",
+          "key": "TWHD-3428",
           "ready": false,
-          "done": false
+          "done": true
+        },
+        {
+          "key": "TWHD-5024",
+          "ready": false,
+          "done": true
         }
       ]
     },
     {
       "id": "G2",
       "cases": [
+        {
+          "key": "TWHD-4734",
+          "ready": false,
+          "done": true
+        },
+        {
+          "key": "TWHD-4736",
+          "ready": false,
+          "done": true
+        },
         {
           "key": "TWHD-4262",
           "ready": false,
@@ -50,12 +50,12 @@
           "done": false
         },
         {
-          "key": "TWHD-4914",
+          "key": "TWHD-4865",
           "ready": false,
-          "done": false
+          "done": true
         },
         {
-          "key": "TWHD-4400",
+          "key": "TWHD-4914",
           "ready": false,
           "done": false
         }
@@ -210,6 +210,11 @@
           "done": false
         },
         {
+          "key": "TWHD-4176",
+          "ready": false,
+          "done": true
+        },
+        {
           "key": "TWHD-4192",
           "ready": false,
           "done": false
@@ -323,6 +328,16 @@
           "key": "TWHD-4624",
           "ready": true,
           "done": false
+        },
+        {
+          "key": "TWHD-4704",
+          "ready": false,
+          "done": true
+        },
+        {
+          "key": "TWHD-4705",
+          "ready": false,
+          "done": true
         },
         {
           "key": "TWHD-4706",
@@ -473,28 +488,7 @@
     },
     {
       "id": "G4",
-      "cases": [
-        {
-          "key": "TWHD-5018",
-          "ready": true,
-          "done": false
-        },
-        {
-          "key": "TWHD-4746",
-          "ready": true,
-          "done": false
-        },
-        {
-          "key": "TWHD-3848",
-          "ready": true,
-          "done": false
-        },
-        {
-          "key": "TWHD-3617",
-          "ready": true,
-          "done": false
-        }
-      ]
+      "cases": []
     }
   ]
 }
