@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "groups": [
     {
       "id": "G1",
@@ -8,11 +8,6 @@
           "key": "TWHD-4759",
           "ready": false,
           "done": false
-        },
-        {
-          "key": "TWHD-5084",
-          "ready": false,
-          "done": true
         },
         {
           "key": "TWHD-5106",
@@ -83,11 +78,6 @@
           "key": "TWHD-4022",
           "ready": true,
           "done": false
-        },
-        {
-          "key": "TWHD-4023",
-          "ready": false,
-          "done": true
         },
         {
           "key": "TWHD-4024",
