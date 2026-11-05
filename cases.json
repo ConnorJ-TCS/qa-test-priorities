@@ -16,8 +16,8 @@
         },
         {
           "key": "TWHD-5029",
-          "ready": true,
-          "done": false
+          "ready": false,
+          "done": true
         }
       ]
     },
