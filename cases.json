@@ -201,8 +201,8 @@
         },
         {
           "key": "TWHD-4600",
-          "ready": true,
-          "done": false
+          "ready": false,
+          "done": true
         },
         {
           "key": "TWHD-4601",
@@ -236,8 +236,8 @@
         },
         {
           "key": "TWHD-4607",
-          "ready": true,
-          "done": false
+          "ready": false,
+          "done": true
         },
         {
           "key": "TWHD-4610",
