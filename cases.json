@@ -336,12 +336,12 @@
         },
         {
           "key": "TWHD-4711",
-          "ready": false,
+          "ready": true,
           "done": false
         },
         {
           "key": "TWHD-4712",
-          "ready": false,
+          "ready": true,
           "done": false
         },
         {
